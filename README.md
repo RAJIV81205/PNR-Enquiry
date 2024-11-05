@@ -19,7 +19,7 @@ PNR Enquiry is a simple web application that allows users to check the status of
 2. Click on the "Check Status" button to retrieve the PNR details.
 
 ## Screenshot
-![PNR Enquiry Screenshot](![image](https://github.com/user-attachments/assets/8b52b224-9539-47a0-a585-500f90b2db4b)
+(![image](https://github.com/user-attachments/assets/8b52b224-9539-47a0-a585-500f90b2db4b)
 
 
 ## Contributing
