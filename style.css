@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px 0;
+    height: fit-content;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 60%;
+    max-width: 600px;
+    padding: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #e0cbe3;
+    color: #3B1E54;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,h2,h3{
+    text-decoration: underline;
+    font-size: 1.8rem;
+    color: #3B1E54;
+    margin-bottom: 20px;
+}
+
+input {
+    background-color: #fafafa;
+    height: 45px;
+    width: 80%;
+    border: 2px solid #3B1E54;
+    border-radius: 25px;
+    padding-left: 15px;
+    font-size: 1rem;
+    color: #3B1E54;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(59, 30, 84, 0.3);
+}
+
+button {
+    background-color: #592786;
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #6f4a86;
+}
+
+#output {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    color: #3B1E54;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+th {
+    background-color: #dad1e2;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
